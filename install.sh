@@ -4,4 +4,4 @@
 git submodules update
 
 #TMUX
-ln -s tmux.conf $HOME/.tmux.conf 
+ln -sf tmux.conf $HOME/.tmux.conf 
