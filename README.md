@@ -4,4 +4,4 @@ some dotfiles
 
 ## One liner
 
-git clone https://github.com/marcelicmateo/.dotfiles.git && (cd .dotfiles && ./install.sh)
+git clone --recurse-submodules -j8 https://github.com/marcelicmateo/.dotfiles.git && (cd .dotfiles && ./install.sh)
